@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Myriad Pro", sans-serif;
+  src: url("http://fonts.cdnfonts.com/css/myriad-pro");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 60%;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+header {
+  background: url("img/background.png");
+  text-align: center;
+  padding: 15px 15px 150px 15px;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+nav img {
+  position: relative;
+  left: 0px;
+}
+
+nav div:nth-of-type(1) {
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+nav div:nth-of-type(2) {
+  position: absolute;
+  right: 15px;
+}
+
+header > p {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.square-button {
+  color: white;
+  font-size: 16px;
+  padding: 1em 2em;
+  border: none;
+  background: linear-gradient(45deg, #fd3fb3 0%, #fd3e4f 100%);
+}
+
+.about-us {
+  padding: 40px;
+  color: white;
+  background: linear-gradient(45deg, #fd3fb3 0%, #fd3e4f 100%);
+}
+
+.about-us button {
+  position: absolute;
+  right: 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: none;
+  padding: 5px;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
